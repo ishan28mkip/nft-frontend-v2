@@ -26,6 +26,7 @@
     -   API contains models, index and requests
         -   Request.ts uses react query and axios to create generic API/error handling. API has advanced features like hooks/caching/retry built into it
         -   Index.ts composes hooks using the basic hooks given in Request.ts, this file can be split based on pages/containers when large enough API endpoints are present
+        -   API caching can be tested by going to user search page, typing 1 and then 2 and then 1 again, 1 comes instantly
 -   Components contains dumb components that do not cause side effects
     -   Are divided into atoms, molecules, organisms. Each level is composed using the earlier layer
 -   Containers contains components that do cause side affects
