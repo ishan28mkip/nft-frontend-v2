@@ -1,8 +1,8 @@
 import { combineReducers } from "redux";
 
-import counter from "@redux/slices/counter";
+import sidebar from "@redux/slices/sidebar";
 
-const rootReducer = combineReducers({ counter });
+const rootReducer = combineReducers({ sidebar });
 
 export type RootState = ReturnType<typeof rootReducer>;
 

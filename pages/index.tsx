@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Header, Main, Cards, Footer } from "@components";
+import { Main, Cards } from "@components";
 
 const Home: React.FC = () => {
     return (
@@ -8,13 +8,10 @@ const Home: React.FC = () => {
             style={{
                 display: "flex",
                 flexDirection: "column",
-                minHeight: "100vh",
             }}
         >
-            <Header />
             <Main />
             <Cards />
-            <Footer />
         </div>
     );
 };

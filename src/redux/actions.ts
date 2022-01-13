@@ -1,1 +1,1 @@
-export { increase, decrease } from "@redux/slices/counter";
+export { toggle } from "@redux/slices/sidebar";

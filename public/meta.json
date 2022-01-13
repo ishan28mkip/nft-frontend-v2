@@ -3,32 +3,27 @@
     "plugins": [
         {
             "name": "Ant Design",
-            "description": "A design system for enterprise-level products. Create an efficient and enjoyable work experience.",
+            "description": "A design system for enterprise-level products. Creates an efficient and enjoyable work experience.",
             "url": "https://ant.design/docs/react/introduce"
         },
         {
             "name": "Styled Components",
-            "description": "Utilising tagged template literals (a recent addition to JavaScript) and the power of CSS, styled-components allows you to write actual CSS code to style your components.",
+            "description": "Utilising tagged template literals and the power of CSS to allow CSS in JS",
             "url": "https://styled-components.com/docs"
         },
         {
-            "name": "Styled System",
-            "description": "Styled System is a collection of utility functions that add style props to your React components and allows you to control styles based on a global theme object with typographic scales, colors, and layout properties.",
-            "url": "https://styled-system.com/getting-started"
-        },
-        {
             "name": "Storybook",
-            "description": "Storybook is an open source tool for developing UI components in isolation for React, Vue, Angular, and more. It makes building stunning UIs organized and efficient.",
+            "description": "Storybook is a tool for developing/documenting UI components in isolation for React",
             "url": "https://storybook.js.org/docs/react/get-started/introduction"
         },
         {
             "name": "Environment Variables",
-            "description": "Use environment variables in your next.js project for server side, client or both.",
+            "description": "Environment variables for nextjs for server side, client or both.",
             "url": "https://github.com/vercel/next.js/tree/canary/examples/environment-variables"
         },
         {
             "name": "Bundle Analyzer",
-            "description": "Use webpack-bundle-analyzer in your Next.js project. Visualize size of webpack output files with an interactive zoomable treemap.",
+            "description": "webpack-bundle-analyzer in Nextjs to check bundle statistics. ",
             "url": "https://github.com/vercel/next.js/tree/canary/packages/next-bundle-analyzer"
         },
         {
@@ -38,17 +33,17 @@
         },
         {
             "name": "React Redux",
-            "description": "Redux helps you write applications that behave consistently, run in different environments (client, server, and native), and are easy to test.",
+            "description": "Redux to write applications that behave consistently and giving central store",
             "url": "https://redux.js.org/introduction/getting-started"
         },
         {
             "name": "next-i18next",
-            "description": "next-i18next is a plugin for Next.js projects that allows you to get translations up and running quickly and easily, while fully supporting SSR, multiple namespaces with codesplitting, etc.",
+            "description": "next-i18next is a plugin for Next.js projects that allows to get translations",
             "url": "https://github.com/isaachinman/next-i18next"
         },
         {
             "name": "ESLint",
-            "description": "A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript. Maintain your code quality with ease.",
+            "description": "A pluggable and configurable linter tool for identifying and reporting on patterns in JavaScript. ",
             "url": "https://eslint.org/docs/user-guide/getting-started"
         },
         {
@@ -63,7 +58,7 @@
         },
         {
             "name": "Enzyme",
-            "description": "Enzyme is a JavaScript Testing utility for React that makes it easier to test your React Components' output. You can also manipulate, traverse, and in some ways simulate runtime given the output.",
+            "description": "Enzyme is a JavaScript Testing utility for React that makes it easier to test React Components",
             "url": "https://enzymejs.github.io/enzyme/"
         },
         {
@@ -73,12 +68,12 @@
         },
         {
             "name": "Docker",
-            "description": "Docker simplifies and accelerates your workflow, while giving developers the freedom to innovate with their choice of tools, application stacks, and deployment environments for each project.",
+            "description": "Docker simplifies and accelerates your workflow. Dockerize application",
             "url": "https://www.docker.com/get-started"
         },
         {
             "name": "Github Actions",
-            "description": "GitHub Actions makes it easy to automate all your software workflows, now with world-class CI/CD. Build, test, and deploy your code right from GitHub.",
+            "description": "GitHub Actions makes for automation of software workflows and CI/CD.",
             "url": "https://docs.github.com/en/actions"
         }
     ]

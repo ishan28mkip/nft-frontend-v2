@@ -1,14 +1,10 @@
-import { increase, decrease } from "./actions";
+import { toggle } from "./actions";
 
 describe("Redux Actions", () => {
-    describe("Counter Actions", () => {
-        it("increase should return increase.type", () => {
-            const action = increase();
-            expect(action.type).toBe(increase.type);
-        });
-        it("decrease should return decrease.type", () => {
-            const action = decrease();
-            expect(action.type).toBe(decrease.type);
+    describe("Sidebar Actions", () => {
+        it("toggle should return toggle.type", () => {
+            const action = toggle();
+            expect(action.type).toBe(toggle.type);
         });
     });
 });

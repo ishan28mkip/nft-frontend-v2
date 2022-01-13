@@ -1,7 +1,9 @@
-export { Header } from "./header";
-export { Logo } from "./logo";
-export { Main } from "./main";
-export { Button } from "./button";
-export { Card } from "./card";
-export { Cards } from "./cards";
-export { Footer } from "./footer";
+export { Header } from "./molecules/header";
+export { Logo } from "./atoms/logo";
+export { Main } from "./organisms/main";
+export { Button } from "./atoms/button";
+export { Card } from "./atoms/card";
+export { Cards } from "./atoms/cards";
+export { Footer } from "./molecules/footer";
+export { Layout } from "./organisms/layout";
+export { Search } from "./organisms/search";
